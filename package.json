@@ -1,0 +1,30 @@
+{
+  "name": "google-trends",
+  "version": "1.0.0",
+  "description": "Google Trends For CLI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blacknbunny/Google-Trends-CLI.git"
+  },
+  "keywords": [
+    "google",
+    "trends",
+    "most",
+    "searched",
+    "words"
+  ],
+  "author": "Dayanç Soyadlı",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blacknbunny/Google-Trends-CLI/issues"
+  },
+  "homepage": "https://github.com/blacknbunny/Google-Trends-CLI#readme",
+  "dependencies": {
+    "google-trends-api": "^4.4.0",
+    "readline-sync": "^1.4.7"
+  }
+}
